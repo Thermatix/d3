@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: "dthree_development"
+  pool: 5
+  host: "localhost"
+  password: "jack123" 
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: "dthree_test"
+  pool: 5
+  host: "localhost"
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: "dthree_production"
+  pool: 5
+  host: "localhost"
