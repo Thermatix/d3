@@ -44,6 +44,8 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    d3-rails (3.3.7)
+      railties (>= 3.1)
     debug_inspector (0.0.2)
     dotenv (0.10.0)
     dotenv-rails (0.10.0)
@@ -141,6 +143,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   coffee-rails (~> 4.0.0)
+  d3-rails
   dotenv-rails
   foreman
   jbuilder (~> 1.2)
